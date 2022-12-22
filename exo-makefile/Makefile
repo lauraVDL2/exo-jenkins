@@ -1,6 +1,6 @@
 COMPILE_C = gcc -c
 
-all: main.o message.o args.o addition.o
+all: main.o messages.o args.o addition.o
 	gcc -o main main.o messages.o args.o
 
 main.o: src/main.c src/args.h src/colors.h
